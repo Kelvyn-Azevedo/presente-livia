@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para minha Namorada</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+        
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 id="header">Para minha Mulher</h1>
+        <div class="imagens">
+            <div class="imagem-container">
+                <img src="images/nos 01.jpg" alt="Imagem01">
+                <p class="texto-paragrafo">Eu acredito que eu fui muito mais feliz em 5 anos do que ja havia sido antes, obrigado por me permitir entrar na sua vida.</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/nos 02.png" alt="Imagem02">
+                <p class="texto-paragrafo">Esse 1 ano que estamos juntos tem sido complexo mas nada dificil, ter você por perto foi o que eu sempre quis! </p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/nos 03.webp" alt="Imagem03">
+                <p class="texto-paragrafo">Logo eu quero começar a tirar mais fotos e videos para a gente ter cada vez mais lembranças do que a gente vem construindo.</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/nos 04.webp" alt="Imagem04">
+                <p class="texto-paragrafo">Eu acredito que em Você, eu tenho fé na gente...Vamos conseguir tudo que almejamos</p>
+            </div>
+            <div class="imagem-container">
+                <img src="images/nos 05.jpg" alt="Imagem05">
+                <p class="texto-paragrafo">Eu tenho orgulho de nós e muito orgulho de você, eu tento ser grato por ter você na minha vida.</p>
+            </div>
+            <div class="imagem-final">
+                <img src="images/gata 01.webp" alt="Imagem06">
+                <img src="images/gata 02.webp" alt="Imagem07">
+                <img src="images/gata 03.webp" alt="Imagem08">
+                <img src="images/gata 04.webp" alt="Imagem09">
+                <p class="texto-final">Eu amo sua beleza, ela é inexplicavel... </p>
+                <h2>Para mim Você é a mulher mais Linda nesse Mundo!</h2>
+            </div>
+
+            <script>
+                const header = document.getElementById('header');
+        
+                window.addEventListener('scroll', function() {
+                    const container = document.documentElement;
+                    const scrollHeight = container.scrollHeight - container.clientHeight;
+        
+                    if (container.scrollTop === scrollHeight) {
+                        header.textContent = 'Eu te amo Muitão!';
+                    } else {
+                        header.textContent = 'Para minha Mulher';
+                    }
+                });
+            </script>
+
+    </body>
+
+</html>
